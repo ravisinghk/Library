@@ -43,22 +43,6 @@ router.post('/', async (req, res) => {
     }
 
 
-
-    // author.save((err, newAuthor)=>{
-    //     if(err){
-    //         res.render('authors/new', {
-    //             author: author,
-    //             errorMessage: 'Error creating Author'
-    //         })
-    //     }
-    //     else{
-    //         // res.redirect(`authors/${newAuthor.id}`)
-    //         res.redirect(`authors`)
-
-            
-    //     }
-    // })
-    // res.send(req.body.name) // body is the body of the form while name is the name we send it as input
 })
 
 
